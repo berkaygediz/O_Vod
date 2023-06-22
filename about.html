@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hakkında - O Vod</title>
+  <link rel="icon" type="image/x-icon" href="img/o_favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function hideobject(clickobject) {
+      var object = document.getElementById(clickobject);
+      if (object.style.display === "none") { object.style.display = "block"; }
+      else { object.style.display = "none"; }
+    }
+  </script>
+</head>
+
+<body>
+  <div id="o-menu">
+    <a href="index.html"><button class="o-menu-button">Ana Sayfa</button></a>
+    <a href="content.html"><button class="o-menu-button">İçerik</button></a>
+    <hr class="o-menu-line">
+    <a href="about.html"><button class="o-menu-button">Hakkında</button></a>
+  </div>
+  <a name="pageup">
+    <div id="up"> <a href="#pageup"> <img id="upimage" src="img/up.png"> </a> </div>
+    <section id="nav">
+      <div id="panel">
+        <img id="menu" onclick="hideobject('o-menu');" src="img/menu.png">
+        <a href="index.html"><img id="logo" src="img/o_192.png"></a>
+      </div>
+      <div id="search">
+        <input id="searchbox" type="text"><a href="search.html"><input id="searchbutton" type="button" value="Ara"></a>
+      </div>
+      <div id="auth">
+        <div id="auth_button">
+          <a href="auth.html"><img id="authimage" src="img/user192.fw.png">Giriş</a>
+        </div>
+      </div>
+      <div style="clear: both;"></div>
+    </section>
+    <section class="content_index">
+      <div>
+        <img style="float:left; padding-top: 2.7%; padding-bottom:5%; max-width: 45%; height: auto;"
+          src="img/thumbnail.jpg">
+        <h1 class="context">Hakkımızda</h1>
+        <hr style="color: red ;">
+        <div style="font-size:larger; margin-top: 1.5%;">O Vod, merkeziyetsiz bir ağı benimseyerek sunucuların
+          oluşturduğu aşırı karbon tüketiminin önüne geçmeyi amaçlar. Açık kaynaklı yapısı sayesinde geribildirimlerle
+          gelişmeye devam ediyor. Platform olarak kullanıcının hakları, içerik haklarını gözetiyoruz ve oy birliği ile
+          platformun değişimlerinde söz sahibi olmasını sağlıyoruz.</div>
+        <br>
+        <b>Proje:</b> O Vod - Berkay Gediz - <a href="https://github.com/berkaygediz"
+          style="text-decoration: none; color: gray; font-weight: bold;">GitHub</a><br>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6342301.000437545!2d35.129329549999994!3d39.0876459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b0155c964f2671%3A0x40d9dbd42a625f2a!2zVMO8cmtpeWU!5e0!3m2!1str!2str!4v1687447915597!5m2!1str!2str"
+        width="100%" height="450" style="border:0; border-radius: 2rem;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <div style="clear: both;">
+      </section>
+      <section class="footer">
+        O Vod © 2022<br>
+      </section>
+</body>
+
+</html>

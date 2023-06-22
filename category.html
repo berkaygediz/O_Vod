@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kategoriler - O Vod</title>
+  <link rel="icon" type="image/x-icon" href="img/o_favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function hideobject(clickobject) {
+      var object = document.getElementById(clickobject);
+      if (object.style.display === "none") { object.style.display = "block"; }
+      else { object.style.display = "none"; }
+    }
+  </script>
+</head>
+
+<body>
+  <div id="o-menu">
+    <a href="index.html"><button class="o-menu-button">Ana Sayfa</button></a>
+    <a href="content.html"><button class="o-menu-button">İçerik</button></a>
+    <hr class="o-menu-line">
+    <a href="about.html"><button class="o-menu-button">Hakkında</button></a>
+  </div>
+  <a name="pageup">
+    <div id="up"> <a href="#pageup"> <img id="upimage" src="img/up.png"> </a> </div>
+    <section id="nav">
+      <div id="panel">
+        <img id="menu" onclick="hideobject('o-menu');" src="img/menu.png">
+        <a href="index.html"><img id="logo" src="img/o_192.png"></a>
+      </div>
+      <div id="search">
+        <input id="searchbox" type="text"><a href="search.html"><input id="searchbutton" type="button" value="Ara"></a>
+      </div>
+      <div id="auth">
+        <div id="auth_button">
+          <a href="auth.html"><img id="authimage" src="img/user192.fw.png">Giriş</a>
+        </div>
+      </div>
+      <div style="clear: both;"></div>
+    </section>
+    <section class="content_index">
+      <section class="sponsored">
+        <div class="recommend" style="width:100%">
+          <div class="context">Kategoriler</div>
+          <a href="index.html">
+            <div class="content">
+              <div class="channel channelsponsored"><img class="channelimage creators"
+                  src="img/category/animation.gif"><br>Animasyon
+              </div>
+            </div>
+          </a>
+          <a href="index.html">
+            <div class="content">
+              <div class="channel channelsponsored"><img class="channelimage creators"
+                  src="img/category/calm-relax.gif"><br>Sakin
+              </div>
+            </div>
+          </a>
+          <a href="index.html">
+            <div class="content">
+              <div class="channel channelsponsored"><img class="channelimage creators"
+                  src="img/category/valve.gif"><br>Oyun
+              </div>
+            </div>
+          </a>
+          <a href="index.html">
+            <div class="content">
+              <div class="channel channelsponsored"><img class="channelimage creators"
+                  src="img/category/action.gif"><br>Aksiyon
+              </div>
+            </div>
+          </a>
+          <a href="index.html">
+            <div class="content">
+              <div class="channel channelsponsored"><img class="channelimage creators"
+                  src="img/category/adventure.gif"><br>Macera
+              </div>
+            </div>
+          </a>
+          <a href="index.html">
+            <div class="content">
+              <div class="channel channelsponsored"><img class="channelimage creators"
+                  src="img/category/nature.gif"><br>Doğa
+              </div>
+            </div>
+          </a>
+          <a href="index.html">
+            <div class="content">
+              <div class="channel channelsponsored"><img class="channelimage creators"
+                  src="img/category/cat.gif"><br>Kedi
+              </div>
+            </div>
+          </a>
+          <a href="index.html">
+            <div class="content">
+              <div class="channel channelsponsored"><img class="channelimage creators"
+                  src="img/category/cook.gif"><br>Yemek
+              </div>
+            </div>
+          </a>
+          <a href="index.html">
+            <div class="content">
+              <div class="channel channelsponsored"><img class="channelimage creators"
+                  src="img/category/tech.gif"><br>Teknoloji
+              </div>
+            </div>
+          </a>
+          <a href="index.html">
+            <div class="content">
+              <div class="channel channelsponsored"><img class="channelimage creators"
+                  src="img/category/art.gif"><br>Sanat
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="context-best" style="font-size: 1rem; user-select: none;">
+          Powered by
+          <img src="img/category/api_giphy_logo_sparkle_clear.gif" style="max-width: 2.5rem; padding-right: 2%;">
+        </div>
+      </section>
+      <div style="clear: both;">
+    </section>
+    <section class="footer">
+      O Vod © 2022<br>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OVOD - O Vod</title>
+  <link rel="icon" type="image/x-icon" href="img/o_favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div id="o-menu">
+    <a href="index.html"><button class="o-menu-button">Ana Sayfa</button></a>
+    <a href="content.html"><button class="o-menu-button">İçerik</button></a>
+    <hr class="o-menu-line">
+    <a href="about.html"><button class="o-menu-button">Hakkında</button></a>
+  </div>
+  <a name="pageup">
+    <div id="up"> <a href="#pageup"> <img id="upimage" src="img/up.png"> </a> </div>
+    <section id="nav">
+      <div id="panel">
+        <img id="menu" onclick="hideobject('o-menu');" src="img/menu.png">
+        <a href="index.html"><img id="logo" src="img/o_192.png"></a>
+      </div>
+      <div id="search">
+        <input id="searchbox" type="text"><a href="search.html"><input id="searchbutton" type="button" value="Ara"></a>
+      </div>
+      <div id="auth">
+        <div id="auth_button">
+          <a href="auth.html"><img id="authimage" src="img/user192.fw.png">Giriş</a>
+        </div>
+      </div>
+      <div style="clear: both;"></div>
+    </section>
+    <section class="content_index">
+      <section id="o_content">
+
+        <div id="details"
+          style="background: linear-gradient(45deg, purple, rgb(128, 0, 167), rgb(149, 0, 194), yellow); color: black;">
+          <div class="channel-item"><img src="img/o_channel.png">OVOD</div>
+          <div id="viddescription" style="clear:both; padding-top:2%;position:relative; float: left; color: white;">Ana
+            içerik sağlayıcı küme olan o'un kanalıdır.</div>
+          <div id="vidproperties">
+            <div style="clear:both; padding-left:1%;padding-top: 1%; color: wheat;"><b>Ağ:</b> mainnode.o.local
+            </div>
+          </div>
+          <div class="context" style="margin-top: 2%;">Paylaşılan</div>
+          <a href="content.html">
+            <div class="content" style="margin-left: 1%;">
+              <img class="thumbnail" src="img/video/bigbuckthumb.png">
+              <div class="title">Süper Tavşan</div>
+              <div class="channel"><img class="channelimage" src="img/channel/o_channel.png">OVOD</div>
+              <div class="views">32678 views</div>
+            </div>
+          </a>
+
+          <div style="clear: both;">
+      </section>
+      <div style="clear: both;"></div>
+
+    </section>
+    </div>
+
+    <section class="footer">
+      O Vod © 2022<br>
+    </section>
+</body>
+
+</html>
