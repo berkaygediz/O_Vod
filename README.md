@@ -16,6 +16,7 @@ The design project of the video sharing site.
 # Technologies
 
 - HTML
+- PHP
 - CSS
 - JavaScript
 
